@@ -3061,3 +3061,12 @@ footer h4.h05::after {
     display: none;
   }
 }
+
+
+/* custom
+*/
+img.portait {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
