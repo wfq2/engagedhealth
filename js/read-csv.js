@@ -21,7 +21,7 @@ Andrew Kaplan,Andrew,Kaplan,Bain Capital,"Andrew Kaplan joined Bain Capital in 2
 function getBio(first, last, company, bio) {
 return `
   <div class="bgrid service-item">	
-            <span class="icon"><img src="../images/${first}-${last}.png"></span>            
+            <span class="icon"><img src="../cdn/portraits/${first}-${last}.png"></span>            
               <div class="service-content">
                 <h2 class="h05">${first} ${last}</h2>
                 <h5>${company}</h5>
