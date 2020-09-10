@@ -2048,6 +2048,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 #participants .services-list .service-item p {
   color: #d4d4d4fa;
   text-align: justify;
+  line-height: 1.5;
 }
 #participants .services-list .icon {
   display: inline-block;
