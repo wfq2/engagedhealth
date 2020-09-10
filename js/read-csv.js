@@ -27,7 +27,7 @@ return `
               <div class="service-content">
                 <h2 class="h05">${first} ${last}</h2>
                 <h5>${company}</h5>
-                <p>${bio}
+                <p>${JSON.parse(JSON.stringify(bio))}
                 </p>	         		
               </div> 	         	 
         </div> <!-- end bgrid -->
