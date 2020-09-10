@@ -9,7 +9,9 @@ $(document).ready(() => {
 function updateHtml(text) {
   var parsed = Papa.parse(text, { header: true })
   parsed.data.forEach((val) => {
-    $("#cdn-bios").append(getBio(val.First, val.Last, val.Company, val.Bio))
+    if (val.First) {
+      $("#cdn-bios").append(getBio(val.First, val.Last, val.Company, val.Bio))
+    }
   })
 }
 
