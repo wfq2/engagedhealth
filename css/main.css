@@ -2036,7 +2036,6 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #participants .services-content {
   text-align: center;
-  max-width: 1040px;
 }
 #participants .services-list {
   margin-top: 1.2rem;
@@ -2047,7 +2046,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   padding: 0 50px;
 }
 #participants .services-list .service-item p {
-  color: #d4d4d4fa
+  color: #d4d4d4fa;
+  text-align: justify;
 }
 #participants .services-list .icon {
   display: inline-block;
@@ -2058,12 +2058,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   color: #f9a828;
 }
 #participants h5 {
-  color: #d4d4d4fa;
+  color: #ffffff
 }
 #participants .services-list .h05 {
   font-size: 1.7rem;
   line-height: 1.765;
-  color: #d4d4d4fa;
+  color: #a7a7a7fa;
   margin-bottom: 3rem;
 }
 
