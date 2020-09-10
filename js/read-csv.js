@@ -27,7 +27,7 @@ return `
               <div class="service-content">
                 <h2 class="h05">${first} ${last}</h2>
                 <h5>${company}</h5>
-                <p>${Buffer.from(bio, 'utf-8')}
+                <p>${bio}
                 </p>	         		
               </div> 	         	 
         </div> <!-- end bgrid -->
