@@ -1241,6 +1241,10 @@ header .row {
   position: relative;
 }
 
+.theme-color {
+  color: #b30000;
+}
+
 /* ------------------------------------------------------------------- 
  * header logo - (_layout.css) 
  * ------------------------------------------------------------------- */
@@ -1260,13 +1264,13 @@ header .header-logo a {
   padding: 0;
   outline: 0;
   border: none;
-  width: 57px;
+  width: auto;
   height: 27px;
-  background: url("../images/logo.png") no-repeat center;
+  font-family: "montserrat-bold", sans-serif;
+  font-weight: bold;
   background-size: 57px 27px;
-  font: 0/0 a;
   text-shadow: none;
-  color: transparent;
+  color: #ffffff;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
