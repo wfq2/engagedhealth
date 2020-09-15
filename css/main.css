@@ -1493,7 +1493,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 768px) {
   header .header-logo a {
-    width: 51px;
+    width: 120px;
     height: 24px;
     background-size: 51px 24px;
   }
@@ -2047,7 +2047,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #participants .services-list .service-item {
   margin-bottom: 3rem;
-  padding: 0 50px;
+  padding: 0 10px;
 }
 #participants .services-list .service-item p {
   color: #d4d4d4fa;
