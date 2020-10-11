@@ -3106,3 +3106,17 @@ img.portrait {
 .invalidpassword {
   color: #b40000;
 }
+
+#sponsors {
+  background-color: #eee;
+  padding: 15rem 0 15rem;
+}
+
+#sponsors .service-item {
+  text-align: center;
+}
+
+img.sponsor-logo {
+  height: 150px;
+  border-radius: 10px;
+}
