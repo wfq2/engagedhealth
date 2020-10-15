@@ -13,7 +13,7 @@ $(document).on('keypress',function(e) {
 
 function password(){
   var password = $("#pwd").val()
-  if (password == "engagedhealth") {
+  if (password == "engagedhealth2020") {
     window.open("main.html", "_self")
   } else {
     $(".invalidpassword").text("Invalid Password")
