@@ -26,6 +26,8 @@ if (label) {
 } else {
   label = ""
 }
+first = first.replace(" ", "-")
+last = last.replace(" ", "-")
 return `
   <div class="bgrid service-item">	
             <span class="icon"><img class="portrait" src="../images/portraits/${first}-${last}.png"></span>            
