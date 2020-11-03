@@ -3120,3 +3120,11 @@ img.sponsor-logo {
   height: 150px;
   border-radius: 10px;
 }
+
+h3 span {
+  font-size: 12px;
+  font-style: italic;
+  vertical-align: top;
+  text-transform: none;
+  letter-spacing: normal;
+}
