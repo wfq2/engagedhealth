@@ -3121,7 +3121,7 @@ img.sponsor-logo {
   border-radius: 10px;
 }
 
-h3 span {
+h3 span.subheader {
   font-size: 12px;
   font-style: italic;
   vertical-align: top;
