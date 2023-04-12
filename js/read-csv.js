@@ -32,7 +32,7 @@ return `
   <div class="bgrid service-item">	
             <span class="icon"><img class="portrait" src="../images/portraits/${first}-${last}.png"></span>            
               <div class="service-content">
-                <h2 class="h05">${first} ${last} <span style="color:white">${label}</span></h2>
+                <h2 class="h05">${first.replace("-", " ")} ${last} <span style="color:white">${label}</span></h2>
                 <h5>${company}</h5>
                 <p>${bio}
                 </p>	         		
